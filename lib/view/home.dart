@@ -14,10 +14,10 @@ class HomeScreen extends StatelessWidget {
     fetchData(context);
     return Scaffold(
         appBar: AppBar(
-          backgroundColor: Colors.cyan,
+          backgroundColor: Color(0xFF121481),
           elevation: 0,
           title: const Text(
-            "Live Today",
+            "DAY BY DAY",
           ),
           titleTextStyle: const TextStyle(
               color: Colors.white, fontSize: 20,

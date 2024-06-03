@@ -32,7 +32,7 @@ class Search_screen extends StatelessWidget {
                           focusedBorder: OutlineInputBorder(
                               borderRadius: BorderRadius.circular(10),
                               borderSide: const BorderSide(
-                                  color: Colors.cyan, width: 3)),
+                                  color: Color(0xFF121481), width: 3)),
                         ),
                       ),
                     ),
@@ -47,10 +47,10 @@ class Search_screen extends StatelessWidget {
                         },
                         style: const ButtonStyle(
                             backgroundColor:
-                            MaterialStatePropertyAll(Colors.cyan)),
+                            MaterialStatePropertyAll(Color(0xFF121481))),
                         child: const Text(
                           "Search",
-                          style: TextStyle(color: Colors.white),
+                          style: TextStyle(color: Colors.white,fontSize: 13),
                         ),
                       ),
                     )

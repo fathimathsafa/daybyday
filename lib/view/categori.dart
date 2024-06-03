@@ -21,7 +21,7 @@ void fetchData(BuildContext context)async{
             child: Scaffold(
               appBar: AppBar(
                 elevation: 0,
-              backgroundColor: Colors.cyan,
+              backgroundColor: Color(0xFF121481),
                 title: Text("Categories"),
                 titleTextStyle: TextStyle(
                   color: Colors.white,fontSize: 20,
@@ -29,7 +29,7 @@ void fetchData(BuildContext context)async{
 
                 ),
                 bottom: TabBar(
-                  labelStyle: TextStyle(color: Colors.cyan,fontWeight:FontWeight.bold
+                  labelStyle: TextStyle(color:Color(0xFF121481),fontWeight:FontWeight.bold
                   ),
                   labelColor: Colors.white,
             unselectedLabelColor: Colors.white,
@@ -42,7 +42,7 @@ void fetchData(BuildContext context)async{
                   overlayColor: MaterialStatePropertyAll(Colors.grey),
                   indicatorSize: TabBarIndicatorSize.tab,
                   indicator: BoxDecoration(
-                    color: Colors.cyan,
+                    color: Color(0xFF121481),
                     borderRadius: BorderRadius.circular(10)
                   ),
                   isScrollable:true,

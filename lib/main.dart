@@ -36,7 +36,7 @@ class MyApp extends StatelessWidget {
             builder: (context, splashScreenProvider, _) {
               return splashScreenProvider.isLoading
                   ? SplashScreen()
-                  : Main_page(); // Replace with your home screen
+                  : BottomnavigationScreen(); // Replace with your home screen
             },
           ),
         ));

@@ -12,7 +12,7 @@ class SplashScreen extends StatelessWidget {
     });
 
     return Scaffold(
-      backgroundColor: Colors.cyan,
+      backgroundColor: Color(0xFF121481),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
@@ -20,10 +20,10 @@ class SplashScreen extends StatelessWidget {
             // Your splash screen content goes here
             if (splashScreenProvider.isLoading)
               Image.asset(
-                "assets/icon.png",
+                "assets/daybyday.png",
                 fit: BoxFit.cover,
-                height: 200,
-                width: 200,
+                height: 250,
+                width: 250,
               )
           ],
         ),
